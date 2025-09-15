@@ -1,0 +1,202 @@
+<!-- Flutter Task Tracker - Portfolio Project Card -->
+<div class="project-card">
+  <div class="project-header">
+    <h3>Flutter Task Tracker</h3>
+    <div class="project-links">
+      <a href="https://github.com/DevNom7/task-tracker" target="_blank" class="btn btn-outline">
+        <i class="fab fa-github"></i> View Code
+      </a>
+      <a href="https://github.com/DevNom7/task-tracker" target="_blank" class="btn btn-primary">
+        <i class="fas fa-external-link-alt"></i> Live Demo
+      </a>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <img src="path/to/your/screenshots/task-tracker-main.png" alt="Flutter Task Tracker App" />
+  </div>
+  
+  <div class="project-content">
+    <p class="project-description">
+      A clean, modern task management app built with Flutter demonstrating clean architecture principles 
+      and mobile development best practices. Features local data persistence, Material 3 design, 
+      and intuitive swipe gestures.
+    </p>
+    
+    <div class="tech-stack">
+      <span class="tech-badge">Flutter</span>
+      <span class="tech-badge">Dart</span>
+      <span class="tech-badge">Material 3</span>
+      <span class="tech-badge">SharedPreferences</span>
+      <span class="tech-badge">Clean Architecture</span>
+    </div>
+    
+    <div class="project-features">
+      <h4>Key Features:</h4>
+      <ul>
+        <li>Add, edit, delete, and toggle task completion</li>
+        <li>Smart filtering (All/Active/Completed)</li>
+        <li>Swipe-to-delete gestures</li>
+        <li>Local data persistence</li>
+        <li>Dark/light theme support</li>
+        <li>Responsive design with animations</li>
+      </ul>
+    </div>
+    
+    <div class="project-details">
+      <div class="detail-item">
+        <strong>Duration:</strong> 6 days (September 9-15, 2025)
+      </div>
+      <div class="detail-item">
+        <strong>Role:</strong> Full-Stack Mobile Developer
+      </div>
+      <div class="detail-item">
+        <strong>Architecture:</strong> Clean Architecture with MVVM pattern
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CSS Styles for the project card -->
+<style>
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.project-header h3 {
+  margin: 0;
+  color: #1f2937;
+  font-size: 1.5rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #2563eb;
+}
+
+.btn-outline {
+  border: 2px solid #3b82f6;
+  color: #3b82f6;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #3b82f6;
+  color: white;
+}
+
+.project-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-description {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-badge {
+  background: #f3f4f6;
+  color: #374151;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.project-features h4 {
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.project-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-features li {
+  padding: 0.25rem 0;
+  color: #6b7280;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.project-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+.project-details {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.detail-item {
+  margin-bottom: 0.5rem;
+  color: #6b7280;
+}
+
+.detail-item strong {
+  color: #374151;
+}
+</style>
