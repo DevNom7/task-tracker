@@ -2,7 +2,7 @@
 **Built by: Naim Lindsay**  
 **Learning Period: September 9/10 to 9/15, 2025**
 
-Hey! This is my first real Flutter app that I built to practice everything I've been learning about mobile development. I wanted to create something practical while exploring clean architecture patterns and Flutter best practices.
+This is my first public Flutter app that I built to practice everything I've been learning about mobile development. I wanted to create something practical while exploring clean architecture patterns and Flutter best practices.
 
 ## What I Learned & Implemented
 
@@ -44,8 +44,6 @@ lib/
 └── utils/          # DateUtils for time formatting
 ```
 
-## What I'm Proud Of
-
 ### **Error Handling**
 I implemented proper try-catch blocks in my TaskStore so the app doesn't crash if storage fails. Learned that graceful degradation is super important!
 
@@ -78,8 +76,8 @@ flutter run
 I want to learn more about:
 - State management solutions like Provider or Riverpod
 - Unit testing and widget testing
-- Database integration (maybe SQLite)
+- Database integration ( SQLite)
 - API integration and networking
 - App deployment to stores
 
-This project really helped me understand Flutter's widget tree, state management, and how to structure a real app. Excited to keep learning! 🚀
+ Excited to keep learning!! 💯
