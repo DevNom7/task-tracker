@@ -56,10 +56,13 @@ Created separate widgets for TaskInput and TaskList that can be reused anywhere.
 ### **User Experience**
 Added loading indicators, smooth animations, and intuitive gestures. The app feels responsive and professional!
 
-## How to Run My App
+## 🚀 Live Demo
+**Try it now:** [https://devnom7.github.io/task-tracker/](https://devnom7.github.io/task-tracker/)
+
+## How to Run My App Locally
 ```bash
-git clone https://github.com/yourusername/task_tracker.git
-cd task_tracker
+git clone https://github.com/DevNom7/task-tracker.git
+cd task-tracker
 flutter pub get
 flutter run
 ```
